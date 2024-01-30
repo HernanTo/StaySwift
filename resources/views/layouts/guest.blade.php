@@ -20,6 +20,8 @@
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
+        {{-- scripts --}}
         <script src="{{asset('js/app.js')}}"></script>
+        {{-- scripts --}}
     </body>
 </html>
