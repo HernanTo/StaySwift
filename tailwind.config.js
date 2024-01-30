@@ -12,8 +12,22 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['"Nunito Sans'],
+                poppins:['"Poppins'],
+                nunitoSans:['"Nunito Sans'],
             },
+            backgroundColor:{
+                primary:'#86B6F6',
+                secondary: '#B4D4FF',
+                third: '#176B87',
+                fourth: '#EEF5FF'
+            },
+            textColor:{
+                primary:'#86B6F6',
+                secondary: '#B4D4FF',
+                third: '#176B87',
+                fourth: '#EEF5FF'
+            }
         },
     },
 
